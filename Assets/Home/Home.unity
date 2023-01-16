@@ -1387,6 +1387,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 706060552651933407, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
+      propertyPath: location
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 706060552651933407, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
       propertyPath: miniGame
       value: 
       objectReference: {fileID: 652726558}
