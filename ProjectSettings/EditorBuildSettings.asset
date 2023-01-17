@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Home/Soup cooking/Soup cooking mini game.unity
     guid: a3ae1ead794f07d4c991ea6c6bd8ec11
+  - enabled: 1
+    path: Assets/University/University.unity
+    guid: 3db7b690b087481439c6faa989ae9737
+  - enabled: 1
+    path: Assets/Work/Work.unity
+    guid: b7f52495999af1c478320302abca709b
+  - enabled: 1
+    path: Assets/Shop/Shop.unity
+    guid: 7419aeb399fac38408fe16c679857f7a
   m_configObjects: {}

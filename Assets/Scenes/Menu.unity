@@ -442,7 +442,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 739923315}
+=======
+      - m_Target: {fileID: 1097129856}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: IL_SceneManagement, Assembly-CSharp
         m_MethodName: NextScene
         m_Mode: 3
@@ -677,8 +681,9 @@ GameObject:
   - component: {fileID: 1097129852}
   - component: {fileID: 1097129851}
   - component: {fileID: 1097129855}
+  - component: {fileID: 1097129856}
   m_Layer: 5
-  m_Name: CustomizeMenu
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -780,6 +785,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9902fb23a8912ba41a3ed0eac5d9d557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1097129856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097129850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0731670dc0b1a43ae1d381bf8a86c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1184587011
@@ -1532,7 +1549,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1938384974}
+=======
+      - m_Target: {fileID: 1097129856}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: IL_SceneManagement, Assembly-CSharp
         m_MethodName: NextScene
         m_Mode: 3
