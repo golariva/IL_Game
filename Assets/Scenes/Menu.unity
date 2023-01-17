@@ -369,7 +369,6 @@ GameObject:
   - component: {fileID: 739923314}
   - component: {fileID: 739923313}
   - component: {fileID: 739923312}
-  - component: {fileID: 739923315}
   m_Layer: 5
   m_Name: Button (Game)
   m_TagString: Untagged
@@ -442,11 +441,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
-      - m_Target: {fileID: 739923315}
-=======
       - m_Target: {fileID: 1097129856}
->>>>>>> Stashed changes
         m_TargetAssemblyTypeName: IL_SceneManagement, Assembly-CSharp
         m_MethodName: NextScene
         m_Mode: 3
@@ -496,18 +491,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739923310}
   m_CullTransparentMesh: 1
---- !u!114 &739923315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 739923310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f0731670dc0b1a43ae1d381bf8a86c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &965081484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,7 +1459,6 @@ GameObject:
   - component: {fileID: 1938384973}
   - component: {fileID: 1938384972}
   - component: {fileID: 1938384971}
-  - component: {fileID: 1938384974}
   m_Layer: 5
   m_Name: Button (Instruction)
   m_TagString: Untagged
@@ -1549,11 +1531,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
-      - m_Target: {fileID: 1938384974}
-=======
       - m_Target: {fileID: 1097129856}
->>>>>>> Stashed changes
         m_TargetAssemblyTypeName: IL_SceneManagement, Assembly-CSharp
         m_MethodName: NextScene
         m_Mode: 3
@@ -1603,18 +1581,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938384969}
   m_CullTransparentMesh: 1
---- !u!114 &1938384974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938384969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f0731670dc0b1a43ae1d381bf8a86c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1940247684
 GameObject:
   m_ObjectHideFlags: 0
