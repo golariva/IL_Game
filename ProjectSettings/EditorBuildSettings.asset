@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Shop/Shop.unity
     guid: 7419aeb399fac38408fe16c679857f7a
+  - enabled: 1
+    path: Assets/Work/GameFloor/FloorCleaning.unity
+    guid: dfcc44e26d2a52048a1c8743df5a3709
   m_configObjects: {}
