@@ -1399,6 +1399,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.12271693, z: 0.2}
   m_Center: {x: 0, y: 0.4386416, z: 0}
+--- !u!114 &1379100473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379100466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e022e8005dcac45b12a6ec19eeff86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: 7
 --- !u!1 &1961698404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,12 +1616,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 706060552651933407, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
       propertyPath: location
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 706060552651933407, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
       propertyPath: miniGame
       value: 
       objectReference: {fileID: 652726558}
+    - target: {fileID: 706060552651933407, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1239746593508401078, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
       propertyPath: m_Name
       value: Interactable
@@ -1693,7 +1710,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 706060552651933407, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
 --- !u!1001 &8189197529340723508
 PrefabInstance:

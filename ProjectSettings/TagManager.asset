@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Interactible
   - Interactable
+  - Destr
+  - Poison
+  - Vegetable
+  - Frame
+  - 2Solutions
+  - 1Solution
+  - 0Solution
   layers:
   - Default
   - TransparentFX
