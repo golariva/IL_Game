@@ -13,6 +13,12 @@ TagManager:
   - 2Solutions
   - 1Solution
   - 0Solution
+  - Frame1
+  - Frame2
+  - Frame3
+  - Frame4
+  - Frame5
+  - Frame6
   layers:
   - Default
   - TransparentFX

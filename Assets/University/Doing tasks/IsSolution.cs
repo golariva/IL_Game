@@ -1,26 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class IsSolution : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    public static int countTables = 0;
+    public static bool isEnd = false;
+    public int location;
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
-
+        if (isEnd)
+        {
+            EndGame();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("2Solutions") || collision.CompareTag("1Solution") || collision.CompareTag("0Solution"))
+        if (collision.CompareTag("Frame1") && collision.CompareTag("Frame2"))
         {
-            Destroy(gameObject);
+            countTables++;
+            if (countTables == 1)
+            {
+                isEnd = true;
+            }
         }
+        Destroy(collision.gameObject);
+    }
+
+    private void EndGame()
+    {
+            ResetData();
+            SceneManager.LoadScene(location);
+    }
+
+    private void ResetData()
+    {
+        countTables = 0;
+        isEnd = false;
     }
 }
