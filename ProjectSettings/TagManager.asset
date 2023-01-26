@@ -19,6 +19,7 @@ TagManager:
   - Frame4
   - Frame5
   - Frame6
+  - Puzzle
   layers:
   - Default
   - TransparentFX

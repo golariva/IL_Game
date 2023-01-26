@@ -13,29 +13,29 @@ public class IsSolution : MonoBehaviour
 
     void Update()
     {
-        if (isEnd)
+        if (isEnd && Input.GetKeyDown(KeyCode.F))
         {
             EndGame();
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.CompareTag("Frame1") && collision.CompareTag("Frame2"))
+        if (other.tag == "Frame1")
         {
-            countTables++;
+            countTables += 1;
             if (countTables == 1)
             {
                 isEnd = true;
             }
         }
-        Destroy(collision.gameObject);
+        //Destroy(other.gameObject);
     }
 
     private void EndGame()
     {
-            ResetData();
-            SceneManager.LoadScene(location);
+        ResetData();
+        SceneManager.LoadScene(location);
     }
 
     private void ResetData()
