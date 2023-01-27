@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Shop/Shop.unity
     guid: 7419aeb399fac38408fe16c679857f7a
+  - enabled: 1
+    path: Assets/Home/Doing homework mini game/Doing homework mini game.unity
+    guid: 023feac58747c0a4fbb206d11584548c
   m_configObjects: {}
