@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spider : MonoBehaviour
 {
-    public float speed = 3;
+    public float speed = 6;
     public Transform[] points;
     public int i;
 

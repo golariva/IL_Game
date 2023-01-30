@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public int maxHealth = 3;
     int currentHealth;
+    public static int numberOfEnemies;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,11 @@ public class Enemy : MonoBehaviour
         currentHealth -= damage;
 
         if (currentHealth <= 0)
+        {
             Die();
+            numberOfEnemies++;
+            Debug.Log(numberOfEnemies);
+        }
     }
 
     void Die()
