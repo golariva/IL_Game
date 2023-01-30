@@ -8,6 +8,7 @@ public class PiecesScript : MonoBehaviour
     private Vector3 rightPosition;
     public bool inRightPosition;
     public bool selected;
+    public static int countPieces;
     void Start()
     {
         rightPosition = transform.position;
@@ -25,6 +26,7 @@ public class PiecesScript : MonoBehaviour
                     transform.position = rightPosition;
                     inRightPosition = true;
                     GetComponent<SortingGroup>().sortingOrder = 0;
+                    countPieces++;
                 }
             }
         }
