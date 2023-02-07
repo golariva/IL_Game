@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Fruit : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Fruit : MonoBehaviour
     private bool dragging, placed;
 
     public GameObject place;
+    public static int isDone, isLost;
+    public static bool IsWinner, IsLoser;
 
     void Awake()
     {
@@ -34,15 +37,25 @@ public class Fruit : MonoBehaviour
 
     void OnMouseUp()
     {
-        if (Vector2.Distance(transform.position, place.transform.position) < 3)
+        if (Vector2.Distance(transform.position, place.transform.position) < 1)
         {
             transform.position = place.transform.position;
             placed = true;
+            isDone++;
+            if (isDone == 14)
+            {
+                IsWinner = true;
+            }
         }
         else
         {
             transform.position = originalPosition;
             dragging = false;
+            isLost++;
+            if (isLost == 5)
+            {
+                IsLoser = true;
+            }
         }
     }
 
