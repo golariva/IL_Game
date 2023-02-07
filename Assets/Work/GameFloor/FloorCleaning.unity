@@ -1992,7 +1992,7 @@ MonoBehaviour:
   attackRange: 0.5
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   attackDamage: 1
 --- !u!1 &1094016288
 GameObject:
