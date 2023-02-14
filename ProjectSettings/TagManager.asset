@@ -20,6 +20,7 @@ TagManager:
   - Frame5
   - Frame6
   - Puzzle
+  - PuzzleButton
   layers:
   - Default
   - TransparentFX
