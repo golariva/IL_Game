@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Work/Drag&Drop/Drag&Drop.unity
     guid: adae88a97316b5c4db6d41376b5c919c
+  - enabled: 1
+    path: Assets/University/Doing tasks/Puzzle.unity
+    guid: 4f2a5a47e9bc0d146a467ac3e6a4159f
   m_configObjects: {}
