@@ -1,0 +1,1531 @@
+fileFormatVersion: 2
+guid: 0a0ca5df1428f3f4baee1a31af1cf894
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jiyoung-jung-2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dca79b4a62a1945a11a551e33ab5b3
+      internalID: 492826662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f365600d562cd194bad9a73c88b5e194
+      internalID: -1457995271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2effc7e891a9b3b409f0f40e6158481f
+      internalID: 529456061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec6d8737f32dc6458a0b5f6f90c5d31
+      internalID: -568748300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7610230d486512947af75fcef6bd142b
+      internalID: -519782293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed586eb2cc9bc87469a37648875f82fa
+      internalID: -193579780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb8bd38ac3a8b2429530bc90e539c42
+      internalID: 1674742280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a6f0994c7d3b84fb216285f4dadb80
+      internalID: 2095224061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368f4c4aeb7d3924288626663c5b1b8c
+      internalID: -1571206664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dba4734a7bc119429fb599eeeef077a
+      internalID: 1163836404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14387b50b5ea05b4a8616722d03e341e
+      internalID: -688221943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a22125eb6232143a43123058f4f20c
+      internalID: 1665272113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fcc9a4d50fafe4cbfdfd5e12091e36
+      internalID: 2002756348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e16c3fcc1768cb46b75d9790ff73e28
+      internalID: -1244619908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab4a029b6a1dac45b477064de796001
+      internalID: 797598412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_141
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 343
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c11142b47315024393f7e521574a178
+      internalID: -456706645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8c06706b41ef541a62f3ba24a4e8f4
+      internalID: -1141622262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3517ee90338639347ade5d124d51132b
+      internalID: 2112968867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_171
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84e741808a5ae943b7858b691f715c8
+      internalID: -1515414900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7c0259f4263b642938ce85acd0133e
+      internalID: 1049754975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4803dd1b1527b41bec67249a1a33cd
+      internalID: 169806430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2eaa35d2f409b4692185c397b8de5a
+      internalID: -748826550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_211
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c603f9d1ba0b0e45ba4c041dce1f695
+      internalID: 1678798822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_201
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 287
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0834bc06fb161154390b6f29aa840098
+      internalID: 742396426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d5d65e19c608949b5a2d9f944287d0
+      internalID: -216748016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_241
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d94473dda45fdd459a968dfd938069e
+      internalID: -507526172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a4b8f3cc0694c41abfba0cc5d4b491
+      internalID: -1667169670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecbb559b3656244eb2cbd394b32687d
+      internalID: 1155997667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_271
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e099fe2b31a434ba3428929b85d83c
+      internalID: -59232365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ef52858fecdb94198422d6def0b2a6
+      internalID: -764278122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_30
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f94cbb6e593244b8aed8deb226ffc6
+      internalID: 1263577331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 231
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7bbdef29f9754429cc7019940fd5aa
+      internalID: 142380139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5669d6864136f748b516cc1a6dd2f0a
+      internalID: -1618344712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892f11d9b04fdec4fa759af4bfd5ebe9
+      internalID: -2128225757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fb76b74b809e64e8b975c2768c82f7
+      internalID: -650074102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_341
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58c022ea3136ee4d93e6689ae3176d7
+      internalID: 376019266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_36
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50da942b2377ee24d88f5cd3f49113c1
+      internalID: 411272157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_361
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2512bf9a311b24d93df574c5721dc2
+      internalID: -2107987116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_38
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ca046b1324cd44282eeb781781afff
+      internalID: 67341017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_39
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 175
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5789567dd4e23489af2d918f09c3d8
+      internalID: -1684053758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c41a025e6eefd49b1a896a9c59e13b
+      internalID: -420031482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1aeb919f515374699c6c7b936516a5
+      internalID: -1568918236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc78ef69c1af30b4baab2100e59db418
+      internalID: -1113433934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c550660b708ff5b44a2aa6282ae0317b
+      internalID: -402269395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_431
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ba4e382d3c33044afc59ba98849f47
+      internalID: -12796060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec632cffd8c3d2a48b7f056349b0b0fe
+      internalID: 124402127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_411
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698284ebeaf0bdf4cafd1ba841547dd2
+      internalID: -763557320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_47
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 119
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcd5b625de22d64a8a65a9850ea4667
+      internalID: 956477698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3130edda168d3e4094b388b533c0b78
+      internalID: -172533031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_481
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb7f84b96bbb2345baf197420ce6afc
+      internalID: 415877497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e2a7e0831857347b5d48dac0226b0b
+      internalID: -356730847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13979b7752c60d44ebd2b08edc23a6f2
+      internalID: 1875256643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_52
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c364dd962eb6334a91a733f5fa866ea
+      internalID: 1346144764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_401
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c4790ce6a339045beda8eb86b20445
+      internalID: -629743221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_54
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1705ed1b22da0ab44a32240900cb34f9
+      internalID: -1478607669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58175852dfaa78942acd38af02b86425
+      internalID: -2087229322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7fa268efd9a534bae68e2bfabdf21c
+      internalID: 1832747459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_471
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1559a84c956634f9eef543d0d5d5fc
+      internalID: 747929550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_58
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77befbdcc7456a443a6005843a7ecefa
+      internalID: -1324584149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012f0d2e236be1043bc1af6e6aa918d5
+      internalID: 433309459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_60
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed275618df11dc443bbc58f3daa61655
+      internalID: -1177475471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_601
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589f2704915acac408aa9e3c7a6d9847
+      internalID: -1717925313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_62
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4739ca504cad2134dbc2ded9bf638c31
+      internalID: 1561862914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiyoung-jung-2_63
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 7
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9bd124f7b2546498137dccf96b4b31
+      internalID: -808321126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      jiyoung-jung-2_5: -193579780
+      jiyoung-jung-2_481: 415877497
+      jiyoung-jung-2_29: -764278122
+      jiyoung-jung-2_43: -402269395
+      jiyoung-jung-2_14: 797598412
+      jiyoung-jung-2_62: 1561862914
+      jiyoung-jung-2_38: 67341017
+      jiyoung-jung-2_0: 492826662
+      jiyoung-jung-2_241: -507526172
+      jiyoung-jung-2_431: -12796060
+      jiyoung-jung-2_58: -1324584149
+      jiyoung-jung-2_101: 1665272113
+      jiyoung-jung-2_32: -1618344712
+      jiyoung-jung-2_121: -1244619908
+      jiyoung-jung-2_55: -2087229322
+      jiyoung-jung-2_8: -1571206664
+      jiyoung-jung-2_34: -650074102
+      jiyoung-jung-2_61: 2095224061
+      jiyoung-jung-2_3: -568748300
+      jiyoung-jung-2_2: 529456061
+      jiyoung-jung-2_54: -1478607669
+      jiyoung-jung-2_211: 1678798822
+      jiyoung-jung-2_12: 2002756348
+      jiyoung-jung-2_411: -763557320
+      jiyoung-jung-2_63: -808321126
+      jiyoung-jung-2_81: 1163836404
+      jiyoung-jung-2_47: 956477698
+      jiyoung-jung-2_471: 747929550
+      jiyoung-jung-2_271: -59232365
+      jiyoung-jung-2_10: -688221943
+      jiyoung-jung-2_341: 376019266
+      jiyoung-jung-2_36: 411272157
+      jiyoung-jung-2_40: -420031482
+      jiyoung-jung-2_41: -1568918236
+      jiyoung-jung-2_39: -1684053758
+      jiyoung-jung-2_26: -1667169670
+      jiyoung-jung-2_56: 1832747459
+      jiyoung-jung-2_19: 1049754975
+      jiyoung-jung-2_401: -629743221
+      jiyoung-jung-2_171: -1515414900
+      jiyoung-jung-2_20: 169806430
+      jiyoung-jung-2_45: 124402127
+      jiyoung-jung-2_42: -1113433934
+      jiyoung-jung-2_141: -456706645
+      jiyoung-jung-2_4: -519782293
+      jiyoung-jung-2_21: -748826550
+      jiyoung-jung-2_51: 1875256643
+      jiyoung-jung-2_6: 1674742280
+      jiyoung-jung-2_361: -2107987116
+      jiyoung-jung-2_1: -1457995271
+      jiyoung-jung-2_31: 142380139
+      jiyoung-jung-2_27: 1155997667
+      jiyoung-jung-2_50: -356730847
+      jiyoung-jung-2_60: -1177475471
+      jiyoung-jung-2_601: -1717925313
+      jiyoung-jung-2_24: -216748016
+      jiyoung-jung-2_17: 2112968867
+      jiyoung-jung-2_48: -172533031
+      jiyoung-jung-2_30: 1263577331
+      jiyoung-jung-2_59: 433309459
+      jiyoung-jung-2_52: 1346144764
+      jiyoung-jung-2_33: -2128225757
+      jiyoung-jung-2_16: -1141622262
+      jiyoung-jung-2_201: 742396426
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
