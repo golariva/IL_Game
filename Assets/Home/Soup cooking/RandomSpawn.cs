@@ -11,6 +11,8 @@ public class RandomSpawn : MonoBehaviour
     [SerializeField]
     private float spawnRate = 2f;
     float nextSpawn = 0.0f;
+    [SerializeField] float startX;
+    [SerializeField] float endX;
 
     void Start()
     {
@@ -22,7 +24,7 @@ public class RandomSpawn : MonoBehaviour
         if (Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnRate;
-            randomX = Random.Range(-9.05f, 8.85f);
+            randomX = Random.Range(startX, endX);
             whereToSpawn = new Vector2(randomX, transform.position.y);
             Instantiate(obj, whereToSpawn, Quaternion.identity);
         }

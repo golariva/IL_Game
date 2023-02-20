@@ -153,7 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 8976738169270562971, guid: 30fb7711fd101df46a3695840e8fd1bb, type: 3}
-  spawnRate: 2
+  spawnRate: 1
+  startX: -9.05
+  endX: 8.85
 --- !u!4 &302720283
 Transform:
   m_ObjectHideFlags: 0
@@ -436,8 +438,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -708,8 +710,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2, y: 0}
-  m_Size: {x: 5, y: 3}
+  m_Offset: {x: -0.177299, y: -0.20253962}
+  m_Size: {x: 3.864966, y: 3.488878}
   m_Direction: 0
 --- !u!1 &1559411676
 GameObject:
@@ -919,6 +921,8 @@ GameObject:
   - component: {fileID: 1729156356}
   - component: {fileID: 1729156355}
   - component: {fileID: 1729156359}
+  - component: {fileID: 1729156361}
+  - component: {fileID: 1729156360}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1021,6 +1025,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6762e25c511217b43961929cb56f66a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1729156360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729156354}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7861ab82b93cc1449b7189447aa79a8b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1729156361
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729156354}
+  m_CullTransparentMesh: 1
 --- !u!1 &1943468273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,8 +1192,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1267,7 +1309,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 4845729934407570186, guid: 127b37d8321ee4c45acfd94de46649ff, type: 3}
-  spawnRate: 4
+  spawnRate: 3
+  startX: -9.05
+  endX: 8.85
 --- !u!4 &2142730138
 Transform:
   m_ObjectHideFlags: 0

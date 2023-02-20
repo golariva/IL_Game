@@ -9,6 +9,7 @@ TagManager:
   - Destr
   - Poison
   - Vegetable
+  - Enemy
   layers:
   - Default
   - TransparentFX
