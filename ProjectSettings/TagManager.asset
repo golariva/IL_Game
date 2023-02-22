@@ -10,6 +10,7 @@ TagManager:
   - Poison
   - Vegetable
   - Enemy
+  - Link
   layers:
   - Default
   - TransparentFX
