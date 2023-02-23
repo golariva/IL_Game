@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/University/Pairs/PairsTask.unity
     guid: a42da4b9524d0ad46863b3489c46acf8
+  - enabled: 1
+    path: Assets/Home/SleepTask/SleepTask.unity
+    guid: 07ca857c17c11f1489abc37cd42e2a24
   m_configObjects: {}
