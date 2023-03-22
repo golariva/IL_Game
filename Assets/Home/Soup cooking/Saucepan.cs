@@ -17,6 +17,7 @@ public class Saucepan : MonoBehaviour
     public static int score = 20;
     public static bool isWin;
     public static bool isLoss;
+    public static bool isGiven;
 
 
     void Start()
@@ -72,6 +73,7 @@ public class Saucepan : MonoBehaviour
             if (score == 0)
             {
                 isWin = true;
+                Inventory.AddItem("Soup");
             }
         }
     }

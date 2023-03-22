@@ -47,7 +47,7 @@ public class MainMenu : MonoBehaviour
         message.enabled = true;
         message.text = "Задание выполнено";
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButton("Fire1"))
         {
             Time.timeScale = 1;
             ResetData();
