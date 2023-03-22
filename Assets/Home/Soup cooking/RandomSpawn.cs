@@ -14,11 +14,6 @@ public class RandomSpawn : MonoBehaviour
     [SerializeField] float startX;
     [SerializeField] float endX;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         if (Time.time > nextSpawn)

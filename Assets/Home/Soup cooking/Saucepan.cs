@@ -12,18 +12,8 @@ public class Saucepan : MonoBehaviour
 
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
-    private bool isStarted;
     public static int lives = 3;
     public static int score = 20;
-    public static bool isWin;
-    public static bool isLoss;
-    public static bool isGiven;
-
-
-    void Start()
-    {
-        Time.timeScale = 0;
-    }
 
     void Awake()
     {
@@ -33,25 +23,14 @@ public class Saucepan : MonoBehaviour
 
     void Update()
     {
-        if (!isStarted && Input.GetKeyDown(KeyCode.Space))
-        {
-            Time.timeScale = 1;
-            isStarted = true;
-        }
 
         if (Input.GetButton("Horizontal"))
-            RunRL();
-
-        if (isWin || isLoss)
-        {
-            EndGame();
-        }     
+            RunRL();   
     }
 
     private void RunRL()
     {
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
-
         transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
 
     }
@@ -63,7 +42,7 @@ public class Saucepan : MonoBehaviour
             lives--;
             if (lives == 0)
             {
-                isLoss = true;
+                CookingTaskMain.isLoss = true;
             }  
         }
 
@@ -72,30 +51,9 @@ public class Saucepan : MonoBehaviour
             score--;
             if (score == 0)
             {
-                isWin = true;
+                CookingTaskMain.isWin = true;
                 Inventory.AddItem("Soup");
             }
         }
     }
-
-    private void EndGame()
-    {
-        Time.timeScale = 0;
-        
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Time.timeScale = 1;
-            ResetData();
-            SceneManager.LoadScene("Home");
-        }
-    }
-
-    private void ResetData()
-    {
-        score = 20;
-        lives = 3;
-        isWin = false;
-        isLoss = false;
-    }
-
 }

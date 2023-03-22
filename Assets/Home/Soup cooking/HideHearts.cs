@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class HideHearts : MonoBehaviour
 {
-    GameObject heart1;
-    GameObject heart2;
-    GameObject heart3;
+    [SerializeField] GameObject heart1;
+    [SerializeField] GameObject heart2;
+    [SerializeField] GameObject heart3;
 
-    void Start()
-    {
-        heart1 = GameObject.Find("Heart 1");
-        heart2 = GameObject.Find("Heart 2");
-        heart3 = GameObject.Find("Heart 3");
-    }
-
-    void OnGUI()
+    void Update()
     {
         if (Saucepan.lives == 2)
             heart3.SetActive(false);
