@@ -245,7 +245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1239746593508401078, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
       propertyPath: m_Name
-      value: Table_3
+      value: Table_3(Interact)
       objectReference: {fileID: 0}
     - target: {fileID: 1239746593508401078, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
       propertyPath: m_TagString
