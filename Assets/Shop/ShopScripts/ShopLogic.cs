@@ -25,6 +25,7 @@ public class ShopLogic : MonoBehaviour
         GameObject currentObject;
         Image currentImg;
         bool noPictures = false;
+        int summ = 0;  // считает общую цену всей корзины
         for (int i = 0; i < 8; i++)  // Поиск пустых ячеек производится по картинкам.
         {
             currentObject = GameObject.Find(playerCells[i]);
@@ -49,7 +50,10 @@ public class ShopLogic : MonoBehaviour
                     noPictures = true;
                 }
             }
+            summ += currentObject.GetComponent<ShopProduct>().price;
         }
+        Text sumPrice = GameObject.Find("SumPrice").GetComponent<Text>();
+        sumPrice.text = "Итого: " + summ.ToString();
     }
 
     // Показывает информацию о товаре при наведении на него курсором.
