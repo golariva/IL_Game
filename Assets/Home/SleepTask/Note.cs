@@ -37,7 +37,10 @@ public class Note : MonoBehaviour
             Destroy(gameObject);
             HealthBar.fill -= Time.deltaTime * 5;
             if (HealthBar.fill <= 0)
+            {
                 SleepTaskMain.isLoss = true;
+                GameStats.health -= 0.1f;
+            }
         }
     }
 

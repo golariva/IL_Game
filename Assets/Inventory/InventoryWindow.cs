@@ -50,7 +50,8 @@ public class InventoryWindow : MonoBehaviour
                 //For every result returned, output the name of the GameObject on the Canvas hit by the Ray
                 foreach (RaycastResult result in results)
                 {
-                    if (Inventory.items.ContainsKey(result.gameObject.name))
+                    Item item = Item.Load(result.gameObject.name);
+                    if (item is not null && Inventory.items.ContainsKey(item))
                     {
                         Inventory.RemoveItem(result.gameObject.name);
                         Redraw();
@@ -66,12 +67,12 @@ public class InventoryWindow : MonoBehaviour
     void Redraw()
     {
         ClearDrawn();
-        foreach (KeyValuePair<string, int> pair in Inventory.items)
+        foreach (KeyValuePair<Item, int> pair in Inventory.items)
         {
             for (int i = 1; i <= pair.Value; i++)
             {
-                Item item = Item.Load(pair.Key);
-                var icon = new GameObject(pair.Key);
+                Item item = pair.Key;
+                var icon = new GameObject(pair.Key.Name);
                 icon.AddComponent<Image>().sprite = item.Icon;
                 icon.transform.SetParent(itemsPanel);
                 icon.transform.localScale = new Vector3(1f, 1f, 1f);
