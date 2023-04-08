@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 4b032af42712dad4d8d4c9829e9f6fdc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._0"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 126
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d0b2973d1054c4587f6db5eba5f0de
+      internalID: -751348286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e59df37748af3f4a80cfe7f4074ac5b
+      internalID: -1551487715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._2"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 64
+        width: 76
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95caed4e6d8c26d4d93ade14541a804d
+      internalID: -1441338137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._3"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb49f62862baea4fad6822c3c3db67e
+      internalID: -1852034441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._4"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 88
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3f98f752f668047a120763f950abc4
+      internalID: 1023907353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._5"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 88
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd40e81689c3f469734f6b9f8323df
+      internalID: -869473659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._6"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 100
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c973315cd7af50b449245fa348e8f377
+      internalID: 1876861873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._7"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 126
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ace989ffcb8554e8d8f90a8dd3a31d
+      internalID: -694765827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._8"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b8f4c241f24444ba29bce016bc4591
+      internalID: 417985567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._9"
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5a53c856b9bd54dac669dd8da31b18
+      internalID: 1951337882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._10"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ebd5f9afb54154a95a1b15f7a00dbc
+      internalID: 240590171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._11"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 158
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d1bc75e71ca104eb93e8d581e56229
+      internalID: 906669387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER
+        ..._12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc771ee94a5d3d4a8d38aeea2ecb147
+      internalID: -1173578389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._4": 1023907353
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._6": 1876861873
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._3": -1852034441
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._1": -1551487715
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._9": 1951337882
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._2": -1441338137
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._5": -869473659
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._8": 417985567
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._0": -751348286
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._11": 906669387
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._10": 240590171
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._12": -1173578389
+      "JE D\xC9TESTE QUE VOUS RAIZEN JE NE COMPREND PAS POURQUOI LE T\xC9L\xC9CHARGER ..._7": -694765827
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
