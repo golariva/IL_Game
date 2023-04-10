@@ -13,6 +13,7 @@ public class EndCleaningFloor : MonoBehaviour
     {
         if (Enemy.numberOfEnemies == 8)
         {
+            
             isLoss = false;
             isWin = true;
             EndGame();
@@ -23,6 +24,7 @@ public class EndCleaningFloor : MonoBehaviour
     {
         if (Input.GetButton("Fire1"))
         {
+            GameStats.budget += 80;
             ResetData();
             SceneManager.LoadScene("Work");
         }
