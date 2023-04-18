@@ -39,7 +39,7 @@ public class Note : MonoBehaviour
             if (HealthBar.fill <= 0)
             {
                 SleepTaskMain.isLoss = true;
-                GameStats.health -= 0.1f;
+                GameStats.health -= 0.34f;
             }
         }
     }
