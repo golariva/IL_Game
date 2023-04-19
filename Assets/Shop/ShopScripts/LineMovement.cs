@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LineMovement : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class LineMovement : MonoBehaviour
     public Vector2 rightPosition;
     public float step;
     private float progress;
-    bool isEdge;
 
     void Start()
     {
@@ -29,12 +29,13 @@ public class LineMovement : MonoBehaviour
             leftPosition = temp;
         }
     }
-
+    
     private void OnTriggerStay2D(Collider2D other)
     {
         if (Input.GetKeyDown(KeyCode.Space) && other.gameObject.transform.name.Contains("Target"))
         {
-            other.gameObject.SetActive(false);
+            other.gameObject.GetComponent<Image>().enabled = false;
+            other.gameObject.transform.name = "Miss";
         }
         else if (Input.GetKeyDown(KeyCode.Space) && other.gameObject.transform.name.Contains("Miss"))
         {

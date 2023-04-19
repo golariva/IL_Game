@@ -108,6 +108,10 @@ public class ShopLogic : MonoBehaviour
         resultImg.sprite = null;
         selfObject.GetComponent<ShopProduct>().price = 0;
         selfObject.GetComponent<ShopProduct>().description = "";
+        Text description = GameObject.Find("Description").GetComponent<Text>();
+        description.text = "Описание:";
+        Text price = GameObject.Find("Price").GetComponent<Text>();
+        price.text = "Цена:";
     }
 
     public void DeleteAllOnClick()
