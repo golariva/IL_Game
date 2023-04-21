@@ -18,12 +18,21 @@ public class TalkToCharacter : MonoBehaviour
     public string secondAnswer;
     public string secondDegreeAnswer;
     public string secondDegreeAnswer2;
+    bool isLost = false;
+    Coroutine lastCoroutine = null;
     
-
-    void Start()
+    bool UncatchedTargets(GameObject bar)
     {
-        targets[0] = bar.transform.GetChild(0).gameObject;
-        targets[1] = bar.transform.GetChild(1).gameObject;
+        bool isTarget = false;
+        for (int i = 0; i < bar.transform.childCount; i++)
+        {
+            if (bar.transform.GetChild(i).gameObject.name.Contains("Target"))
+            {
+                isTarget = true;
+                break;
+            }
+        }
+        return isTarget;
     }
 
     void Update()
@@ -35,49 +44,53 @@ public class TalkToCharacter : MonoBehaviour
             window.transform.parent.gameObject.SetActive(true);
             bar.SetActive(false);
             line.SetActive(false);
-            window.SetActive(true);
-            StartCoroutine(TickerCoroutine(firstMessage));
+            lastCoroutine = StartCoroutine(TickerCoroutine(firstMessage));
             way += "A";
+            choices.text = "1) 'Привет'\n2) Спросить, почему он смеется";
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1) && isWaiting && highlight.activeSelf && way == "A")
         {
             // Отвечаем на взаимодействие.
             isWaiting = false;
-            StartCoroutine(TickerCoroutine(firstAnswer));
-            way += "1";
-            choices.text = "";
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && isWaiting && highlight.activeSelf && way == "A")
-        {
-            isWaiting = false;
-            StartCoroutine(TickerCoroutine(secondAnswer));
-            way += "2";
+            lastCoroutine = StartCoroutine(TickerCoroutine(firstAnswer));
+            way += "A";
             choices.text = "1) Попросить шоколадку";
-            line.SetActive(true);
-            bar.SetActive(true);
         }
-        if (isWaiting && highlight.activeSelf && way.Contains("2") && !way.Contains("B") && !targets[0].activeSelf && !targets[1].activeSelf && bar.activeSelf)
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && isWaiting && highlight.activeSelf && way == "A")
         {
-            line.SetActive(false);
-            bar.SetActive(false);
             isWaiting = false;
-            StartCoroutine(TickerCoroutine(secondDegreeAnswer));
+            lastCoroutine = StartCoroutine(TickerCoroutine(secondAnswer));
             way += "B";
             choices.text = "";
+        }
 
-        }
-        if (isWaiting && highlight.activeSelf && way.Contains("2") && !line.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && isWaiting && highlight.activeSelf && way == "AA")
         {
+            if (!isLost)
+            {
+                line.SetActive(true);
+                bar.SetActive(true);
+            }
+            way += "A";
+            choices.text = "";
+        }
 
-        }
-        if (isWaiting)
+        
+        if (isWaiting && highlight.activeSelf && way == "AAA" && !UncatchedTargets(bar) && bar.activeSelf)
         {
-            window.transform.GetChild(1).gameObject.SetActive(true);
+            isWaiting = false;
+            way += "A";
+            bar.SetActive(false);
+            line.SetActive(false);
+            lastCoroutine = StartCoroutine(TickerCoroutine(secondDegreeAnswer));
         }
-        else
+        else if (isWaiting && highlight.activeSelf && way == "AAA" && !bar.activeSelf)
         {
-            window.transform.GetChild(1).gameObject.SetActive(false);
+            isWaiting = false;
+            isLost = true;
+            way += "B";
+            lastCoroutine = StartCoroutine(TickerCoroutine(secondDegreeAnswer2));
         }
     }
 
@@ -116,11 +129,10 @@ public class TalkToCharacter : MonoBehaviour
         if (other.tag == "Player")
         {
             highlight.SetActive(false);
-            window.SetActive(false);
+            StopCoroutine(lastCoroutine);
+            window.transform.parent.gameObject.SetActive(false);
             isWaiting = false;
             way = "";
-            Text choices = window.transform.GetChild(1).GetComponent<Text>();
-            choices.text = "1) Поприветствовать\r\n2) Спросить, почему он смеется";
         }
     }
 }
