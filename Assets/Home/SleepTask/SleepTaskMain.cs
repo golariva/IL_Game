@@ -10,6 +10,7 @@ public class SleepTaskMain : MonoBehaviour
     [SerializeField] Canvas startMessage;
     [SerializeField] Canvas winningMessage;
     [SerializeField] Canvas lossMessage;
+    [SerializeField] Timer timer;
     private bool isStarted;
     public static bool isWin;
     public static bool isLoss;
@@ -30,7 +31,7 @@ public class SleepTaskMain : MonoBehaviour
             startMessage.gameObject.SetActive(false);
         }
 
-        if (Timer.timeStart <= 0 && !isLoss)
+        if (timer.timeStart <= 0 && !isLoss)
         {
             isWin = true;
         }
@@ -61,7 +62,7 @@ public class SleepTaskMain : MonoBehaviour
     private void ResetData()
     {
         HealthBar.fill = 1f;
-        Timer.timeStart = 30;
+        timer.timeStart = 30;
         isWin = false;
         isLoss = false;
     }
