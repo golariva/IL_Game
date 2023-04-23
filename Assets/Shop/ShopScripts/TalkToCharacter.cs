@@ -129,7 +129,11 @@ public class TalkToCharacter : MonoBehaviour
         if (other.tag == "Player")
         {
             highlight.SetActive(false);
-            StopCoroutine(lastCoroutine);
+            if (lastCoroutine != null)
+            {
+                StopCoroutine(lastCoroutine);
+                lastCoroutine = null;
+            }
             window.transform.parent.gameObject.SetActive(false);
             isWaiting = false;
             way = "";
