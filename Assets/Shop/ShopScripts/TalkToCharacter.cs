@@ -18,7 +18,7 @@ public class TalkToCharacter : MonoBehaviour
     public string secondAnswer;
     public string secondDegreeAnswer;
     public string secondDegreeAnswer2;
-    bool isLost = false;
+    int isCompleted = 2;
     Coroutine lastCoroutine = null;
     
     bool UncatchedTargets(GameObject bar)
@@ -67,7 +67,7 @@ public class TalkToCharacter : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1) && isWaiting && highlight.activeSelf && way == "AA")
         {
-            if (!isLost)
+            if (isCompleted == 1 || isCompleted == 2)
             {
                 line.SetActive(true);
                 bar.SetActive(true);
@@ -79,17 +79,22 @@ public class TalkToCharacter : MonoBehaviour
         
         if (isWaiting && highlight.activeSelf && way == "AAA" && !UncatchedTargets(bar) && bar.activeSelf)
         {
-            isWaiting = false;
             way += "A";
+            isWaiting = false;
             bar.SetActive(false);
             line.SetActive(false);
             lastCoroutine = StartCoroutine(TickerCoroutine(secondDegreeAnswer));
+            if (isCompleted != 1)
+            {
+                Inventory.AddItem("Chocolate");
+            }
+            isCompleted = 1;
         }
         else if (isWaiting && highlight.activeSelf && way == "AAA" && !bar.activeSelf)
         {
-            isWaiting = false;
-            isLost = true;
             way += "B";
+            isWaiting = false;
+            isCompleted = 0;
             lastCoroutine = StartCoroutine(TickerCoroutine(secondDegreeAnswer2));
         }
     }

@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class DoorInteraction : MonoBehaviour
 {
-    GameObject highlight;
     SpriteRenderer door;
     Coroutine lastCoroutine = null;
     public Sprite doorClosed;
@@ -17,16 +16,7 @@ public class DoorInteraction : MonoBehaviour
 
     void Start()
     {
-        highlight = transform.GetChild(0).gameObject;
         door = gameObject.GetComponent<SpriteRenderer>();
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F) && highlight.activeSelf)
-        {
-            SceneManager.LoadScene(1);
-        }
     }
 
 
@@ -54,7 +44,6 @@ public class DoorInteraction : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            highlight.SetActive(true);
             if (lastCoroutine != null)
             {
                 StopCoroutine(lastCoroutine);
@@ -67,7 +56,6 @@ public class DoorInteraction : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            highlight.SetActive(false);
             if (lastCoroutine != null)
             {
                 StopCoroutine(lastCoroutine);
