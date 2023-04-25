@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea3f5968d8c2e4841a5132e9ebd4c1a9, type: 3}
   m_Name: Chocolate
   m_EditorClassIdentifier: 
-  Name: "\u0428\u043E\u043A\u043E\u043B\u0430\u0434\u043A\u0430"
+  Name: Chocolate
   Icon: {fileID: 21300000, guid: 023f85d651786ba498f4ff9477b89958, type: 3}
   price: 100
+  healthReplenishment: 0
