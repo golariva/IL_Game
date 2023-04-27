@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/GameOver.unity
     guid: 472ce298c6e6a02479dac611c663d018
   - enabled: 1
-    path: Assets/Shop/ShopWindow.unity
+    path: Assets/Shop/ShopVendingMachine.unity
     guid: 22dbecfaaff74524ba4320e8eebcba10
+  - enabled: 1
+    path: Assets/Shop/ShopSeller.unity
+    guid: 7f45aac13a87f9549bb06a857b4a49a5
   m_configObjects: {}

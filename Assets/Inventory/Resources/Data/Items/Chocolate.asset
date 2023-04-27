@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Chocolate
   Icon: {fileID: 21300000, guid: 023f85d651786ba498f4ff9477b89958, type: 3}
   price: 100
-  healthReplenishment: 0
+  healthReplenishment: 0.27

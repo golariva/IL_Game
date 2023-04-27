@@ -14,6 +14,7 @@ public class SleepTaskMain : MonoBehaviour
     private bool isStarted;
     public static bool isWin;
     public static bool isLoss;
+    public static bool isPlayed = false;
 
     void Start()
     {
@@ -45,6 +46,7 @@ public class SleepTaskMain : MonoBehaviour
     private void EndGame()
     {
         Time.timeScale = 0;
+        isPlayed = true;
 
         if (isWin)
             winningMessage.gameObject.SetActive(true);
