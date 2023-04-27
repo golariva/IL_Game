@@ -7,13 +7,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MainMenu : MonoBehaviour
+public class HomeworkMain : MonoBehaviour
 {
     [SerializeField] int progress;
-    [SerializeField] TextMeshProUGUI progressText;
+    [SerializeField] Text progressText;
     public static bool isCompleted;
     [SerializeField] GameObject button;
-    [SerializeField] TextMeshProUGUI message;
+    [SerializeField] Text message;
+    public static bool isPlayed = false;
 
     void Start()
     {
@@ -46,11 +47,13 @@ public class MainMenu : MonoBehaviour
         button.GetComponent<Button>().interactable = false;
         message.enabled = true;
         message.text = "Задание выполнено";
+        isPlayed = true;
 
         if (Input.GetButton("Fire1"))
         {
             Time.timeScale = 1;
             ResetData();
+            Inventory.AddItem("Notebook");
             SceneManager.LoadScene("Home");
         }
     }
