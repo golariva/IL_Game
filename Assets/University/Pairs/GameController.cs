@@ -45,6 +45,9 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && countCorrectGuesses == gameGuesses)
         {
+            GameStats.rating -= 18;
+            if (GameStats.rating <= 1)
+                GameStats.rating = 1;
             SceneManager.LoadScene(location);
         }
     }

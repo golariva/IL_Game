@@ -88,7 +88,12 @@ public class WordManager : MonoBehaviour
             words.Clear();
             winGame.Setup(countWords);
             if (Input.GetKeyDown(KeyCode.F))
+            {
+                GameStats.rating -= 13;
+                if (GameStats.rating <= 1)
+                    GameStats.rating = 1;
                 SceneManager.LoadScene(location);
+            }
         }
     }
 

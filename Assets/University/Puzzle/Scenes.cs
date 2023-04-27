@@ -17,6 +17,9 @@ public class Scenes : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && PiecesScript.countPieces == 36)
         {
+            GameStats.rating -= 18;
+            if (GameStats.rating < 1)
+                GameStats.rating = 1;
             SceneManager.LoadScene(location);
         }
     }
