@@ -47,4 +47,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/University/Typing Game/Typing Game.unity
     guid: f864e190fae031543bc675f5af07b53c
+  - enabled: 1
+    path: Assets/Work/DishWashing/DishWashing.unity
+    guid: 0f99c30bdfb0b3048995cb8b930502a0
+  - enabled: 1
+    path: Assets/GameOver.unity
+    guid: 472ce298c6e6a02479dac611c663d018
+  - enabled: 1
+    path: Assets/Shop/ShopWindow.unity
+    guid: 22dbecfaaff74524ba4320e8eebcba10
   m_configObjects: {}

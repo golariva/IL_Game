@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 
@@ -16,7 +17,8 @@ public class CookingTaskMain : MonoBehaviour
     [SerializeField] Canvas startMessage;
     [SerializeField] Canvas winningMessage;
     [SerializeField] Canvas lossMessage;
-    [SerializeField] TextMeshProUGUI scoreMessage;
+    [SerializeField] Text scoreMessage;
+    
 
     void Start()
     {
@@ -44,12 +46,15 @@ public class CookingTaskMain : MonoBehaviour
 
     private void EndGame()
     {
+
         Time.timeScale = 0;
 
         if (isWin)
             winningMessage.gameObject.SetActive(true);
         else
             lossMessage.gameObject.SetActive(true);
+
+        
 
         if (Input.GetButton("Fire1"))
         {

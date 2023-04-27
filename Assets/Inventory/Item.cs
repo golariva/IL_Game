@@ -9,6 +9,7 @@ public class Item : ScriptableObject
     public string Name = "Item";
     public Sprite Icon;
     public int price = 0;
+    public float healthReplenishment = 0;
 
     public static Item Load(string name)
     {

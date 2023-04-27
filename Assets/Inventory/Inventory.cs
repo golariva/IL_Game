@@ -6,20 +6,25 @@ using UnityEngine.UI;
 
 public static class Inventory
 {
-    public static Dictionary<string, int> items = new Dictionary<string, int>();
+    public static Dictionary<Item, int> items = new Dictionary<Item, int>();
     public static void AddItem(string itemName)
     {
-        if (!items.ContainsKey(itemName))
-            items.Add(itemName, 1);
-        else if (items[itemName] < 16)
-            items[itemName]++;
+        Item item = Item.Load(itemName);
+
+        if (!items.ContainsKey(item))
+            items.Add(Item.Load(itemName), 1);
+        else if (items[item] < 16)
+            items[item]++;
     }
 
     public static void RemoveItem(string itemName)
     {
-        if (items[itemName] > 1)
-            items[itemName]--;
+        Item item = Item.Load(itemName);
+        GameStats.health += item.healthReplenishment;
+
+        if (items[item] > 1)
+            items[item]--;
         else
-            items.Remove(itemName);
+            items.Remove(item);
     }
 }

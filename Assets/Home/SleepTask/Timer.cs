@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public static float timeStart = 30;
-    public Text timerText;
+    [SerializeField] public float timeStart;
+    [SerializeField] Text timerText;
     
     void Start()
     {
