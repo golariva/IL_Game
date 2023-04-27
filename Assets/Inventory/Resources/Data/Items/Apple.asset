@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea3f5968d8c2e4841a5132e9ebd4c1a9, type: 3}
-  m_Name: Medicine
+  m_Name: Apple
   m_EditorClassIdentifier: 
-  Name: "\u0422\u0430\u0431\u043B\u0435\u0442\u043E\u0447\u043A\u0438"
-  Icon: {fileID: 21300000, guid: b211fe04d928da648964af166292b3dc, type: 3}
-  price: 500
+  Name: Apple
+  Icon: {fileID: 21300000, guid: 8c082d8ca8fd2dd4d99d40eda95e44e4, type: 3}
+  price: 10
+  healthReplenishment: 0.1

@@ -6,23 +6,21 @@ public class CheckIfPlayed : MonoBehaviour
 {
     [SerializeField] GameObject bed;
     [SerializeField] GameObject desk;
+    bool isObjRemovedFromBed = false;
+    bool isObjRemovedFromDesk = false;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (SleepTaskMain.isPlayed)
+        if (SleepTaskMain.isPlayed && !isObjRemovedFromBed)
         {
-            bed.GetComponent<Obj>().enabled = false;
+            Destroy(bed.GetComponent<Obj>());
+            isObjRemovedFromBed = true;
         }
 
-        if (HomeworkMain.isPlayed)
+        if (HomeworkMain.isPlayed && !isObjRemovedFromDesk)
         {
-            desk.GetComponent<Obj>().enabled = false;
+            Destroy(desk.GetComponent<Obj>());
+            isObjRemovedFromDesk=true;
         }
     }
 }
