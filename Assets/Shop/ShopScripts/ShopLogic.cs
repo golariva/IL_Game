@@ -8,6 +8,7 @@ public class ShopLogic : MonoBehaviour
 {
     public GameObject playerInventory;  //  Все кнопки инвентаря игрока здесь.
     private string[] playerCells = new string[8];  // Массив имен кнопок, чтобы можно было к ним обращаться.
+    int summ;
 
     void Start()
     {
@@ -25,7 +26,7 @@ public class ShopLogic : MonoBehaviour
         GameObject currentObject;
         Image currentImg;
         bool noPictures = false;
-        int summ = 0;  // считает общую цену всей корзины
+        summ = 0;  // считает общую цену всей корзины
         for (int i = 0; i < 8; i++)  // Поиск пустых ячеек производится по картинкам.
         {
             currentObject = GameObject.Find(playerCells[i]);
@@ -116,13 +117,17 @@ public class ShopLogic : MonoBehaviour
 
     public void DeleteAllOnClick()
     {
-        GameObject inventory = GameObject.Find("PlayerInventory");
-        for (int i = 0; i < inventory.transform.childCount; i++)
+        if (GameStats.budget >= summ)
         {
-            Transform child = inventory.transform.GetChild(i);
-            child.GetComponent<Image>().sprite = null;
-            child.GetComponent<ShopProduct>().price = 0;
-            child.GetComponent<ShopProduct>().description = "";
+            GameStats.budget -= summ;
+            GameObject inventory = GameObject.Find("PlayerInventory");
+            for (int i = 0; i < inventory.transform.childCount; i++)
+            {
+                Transform child = inventory.transform.GetChild(i);
+                child.GetComponent<Image>().sprite = null;
+                child.GetComponent<ShopProduct>().price = 0;
+                child.GetComponent<ShopProduct>().description = "";
+            }
         }
     }
 }
