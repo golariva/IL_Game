@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Shop/ShopSeller.unity
     guid: 7f45aac13a87f9549bb06a857b4a49a5
+  - enabled: 1
+    path: Assets/Conclusion/Conclusion.unity
+    guid: 5a3d9f4e307a9d94395bfe409dce75e8
   m_configObjects: {}

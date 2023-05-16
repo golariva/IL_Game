@@ -442,6 +442,122 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668290893}
   m_CullTransparentMesh: 1
+--- !u!1 &714651253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 714651254}
+  - component: {fileID: 714651256}
+  - component: {fileID: 714651255}
+  m_Layer: 5
+  m_Name: Instruction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &714651254
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714651253}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001999, y: 1.0001999, z: 1.0001999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 764682196}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -4, y: -2}
+  m_SizeDelta: {x: 900, y: 400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &714651255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714651253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a585a5b22b4800947ac09cb56e4a1646, type: 3}
+    m_FontSize: 25
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 65
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0414\u0430\u043D\u043D\u0430\u044F \u0438\u0433\u0440\u0430 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442
+    \u0441\u043E\u0431\u043E\u0439 \u043F\u0440\u043E\u0442\u043E\u0442\u0438\u043F
+    \u043E\u0434\u043D\u043E\u0433\u043E \u0441\u0442\u0443\u0434\u0435\u043D\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+    \u0434\u043D\u044F. \n\n\u0418\u0433\u0440\u0430 \u0441\u043E\u0441\u0442\u043E\u0438\u0442
+    \u0438\u0437 \u0447\u0435\u0442\u044B\u0440\u0451\u0445 \u0441\u0446\u0435\u043D,
+    \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0445 \u0434\u0440\u0443\u0433
+    \u0437\u0430 \u0434\u0440\u0443\u0433\u043E\u043C. \u0423\u0447\u0442\u0438\u0442\u0435,
+    \u0447\u0442\u043E \u043F\u043E\u0441\u043B\u0435 \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430
+    \u043D\u0430 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0443\u044E \u0441\u0446\u0435\u043D\u0443
+    \u0432\u043E\u0437\u0432\u0440\u0430\u0442 \u043A \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0435\u0439
+    \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u0435\u043D!\n\n\u041D\u0430
+    \u043A\u0430\u0436\u0434\u043E\u0439 \u043B\u043E\u043A\u0430\u0446\u0438\u0438
+    \u0432\u0430\u043C \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u0437\u0430\u0434\u0430\u043D\u0438\u044F
+    - \u043C\u0438\u043D\u0438-\u0438\u0433\u0440\u044B, \u0437\u0430 \u043F\u0440\u043E\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u0435
+    \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0432\u044B \u0431\u0443\u0434\u0435\u0442\u0435
+    \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C \u043D\u0430\u0433\u0440\u0430\u0434\u0443,
+    \u0430 \u0437\u0430 \u043F\u0440\u043E\u0432\u0430\u043B - \u043D\u0430\u043A\u0430\u0437\u0430\u043D\u0438\u0435.
+    \u041F\u043E\u0434\u0445\u043E\u0434\u0438\u0442\u0435 \u043A \u0437\u0430\u0434\u0430\u043D\u0438\u044F\u043C
+    \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E \u0438
+    \u043D\u0435 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0439\u0442\u0435
+    \u043D\u0430 \u0432\u0442\u043E\u0440\u0443\u044E \u043F\u043E\u043F\u044B\u0442\u043A\u0443!\n\n\u0412\u044B
+    \u043C\u043E\u0436\u0435\u0442\u0435 \u0432 \u043B\u044E\u0431\u043E\u0439 \u043C\u043E\u043C\u0435\u043D\u0442
+    \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C \u0438\u0433\u0440\u0443
+    \u0438 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442.
+    \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043A \u043F\u043E\u043F\u044B\u0442\u043A\u0435
+    \u043D\u0435\u043B\u044C\u0437\u044F, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
+    \u0431\u0443\u0434\u044C\u0442\u0435 \u0430\u043A\u043A\u0443\u0440\u0430\u0442\u043D\u044B
+    \u0441 \u043A\u043D\u043E\u043F\u043A\u043E\u0439 \"\u0412\u044B\u0445\u043E\u0434\".
+    \n\n\u041F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u0435
+    \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u043E
+    \u043F\u043E \u043A\u043D\u043E\u043F\u043A\u0430\u043C WSAD. \u041F\u0435\u0440\u0435\u0445\u043E\u0434
+    \u043A \u043C\u0438\u043D\u0438-\u0438\u0433\u0440\u0435 \u043F\u043E \u043A\u043D\u043E\u043F\u043A\u0435
+    F. \u0427\u0442\u043E\u0431\u044B \u043E\u0442\u043A\u0440\u044B\u0442\u044C
+    \u0438\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u044C, \u043D\u0430\u0436\u043C\u0438\u0442\u0435
+    i. \n\n\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\u043E\u0432
+    \u0436\u0435\u043B\u0430\u0435\u0442 \u0412\u0430\u043C \u043F\u0440\u0438\u044F\u0442\u043D\u043E\u0439
+    \u0438\u0433\u0440\u044B!"
+--- !u!222 &714651256
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714651253}
+  m_CullTransparentMesh: 1
 --- !u!1 &743095887
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,13 +703,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 714651254}
   - {fileID: 1518275895}
   m_Father: {fileID: 743095891}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 11, y: 0}
   m_SizeDelta: {x: 1000, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764682197
@@ -899,7 +1016,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 764682196}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -928,7 +1045,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a585a5b22b4800947ac09cb56e4a1646, type: 3}
-    m_FontSize: 25
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0

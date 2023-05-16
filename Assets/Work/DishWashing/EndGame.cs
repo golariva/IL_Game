@@ -10,6 +10,7 @@ public class EndGame : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             SceneManager.LoadScene("Work");
+            GamesWork.food = 1;
         }
     }
 
