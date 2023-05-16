@@ -526,8 +526,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: 0}
-  m_SizeDelta: {x: 1000, y: 500}
+  m_AnchoredPosition: {x: 303.55, y: 184.04}
+  m_SizeDelta: {x: 507.1, y: 131.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965081486
 MonoBehaviour:
@@ -781,6 +781,7 @@ GameObject:
   - component: {fileID: 1184587015}
   - component: {fileID: 1184587014}
   - component: {fileID: 1184587013}
+  - component: {fileID: 1184587016}
   m_Layer: 5
   m_Name: Button (Exit)
   m_TagString: Untagged
@@ -853,10 +854,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: IL_CharacterCustomizer, Assembly-CSharp
-        m_MethodName: NextScene
-        m_Mode: 3
+      - m_Target: {fileID: 1184587016}
+        m_TargetAssemblyTypeName: CloseGame, Assembly-CSharp
+        m_MethodName: Close
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -903,6 +904,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184587011}
   m_CullTransparentMesh: 1
+--- !u!114 &1184587016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184587011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23166e2611b05d246aec46097b21a362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1285131471
 GameObject:
   m_ObjectHideFlags: 0
