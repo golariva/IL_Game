@@ -24,6 +24,7 @@ public class EndCleaningFloor : MonoBehaviour
     {
         if (Input.GetButton("Fire1"))
         {
+            GamesWork.floor = 1;
             GameStats.budget += 80;
             ResetData();
             SceneManager.LoadScene("Work");

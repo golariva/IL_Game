@@ -19,6 +19,7 @@ public class EndThisGame : MonoBehaviour
         {
             ResetData();
             SceneManager.LoadScene("Work");
+            GamesWork.fridge = 1;
         }
     }
 
