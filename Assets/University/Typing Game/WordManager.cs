@@ -77,7 +77,12 @@ public class WordManager : MonoBehaviour
             words.Clear();
             failedGame.Setup(countWords);
             if (Input.GetButton("Fire1"))
+            {
+                GameStats.rating += 13;
+                if (GameStats.rating >= 50)
+                    GameStats.rating = 50;
                 SceneManager.LoadScene(location);
+            }
         }
     }
 
