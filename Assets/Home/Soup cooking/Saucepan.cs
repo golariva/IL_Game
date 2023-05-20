@@ -43,7 +43,7 @@ public class Saucepan : MonoBehaviour
             if (lives == 0)
             {
                 CookingTaskMain.isLoss = true;
-                GameStats.health -= 0.34f;
+                GameStats.health -= 0.2f;
             }  
         }
 

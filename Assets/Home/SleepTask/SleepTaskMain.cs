@@ -32,9 +32,10 @@ public class SleepTaskMain : MonoBehaviour
             startMessage.gameObject.SetActive(false);
         }
 
-        if (timer.timeStart <= 0 && !isLoss)
+        if (timer.timeStart <= 0 && !isLoss && !isWin)
         {
             isWin = true;
+            GameStats.health = 1f;
         }
             
         if (isWin || isLoss)
@@ -46,6 +47,7 @@ public class SleepTaskMain : MonoBehaviour
     private void EndGame()
     {
         Time.timeScale = 0;
+
         isPlayed = true;
 
         if (isWin)
@@ -55,7 +57,7 @@ public class SleepTaskMain : MonoBehaviour
 
         if (Input.GetButton("Fire1"))
         {
-            Time.timeScale = 1;
+            Time.timeScale = 1;    
             ResetData();
             SceneManager.LoadScene("Home");
         }

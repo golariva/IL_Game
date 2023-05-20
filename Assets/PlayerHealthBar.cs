@@ -16,13 +16,18 @@ public class PlayerHealthBar : MonoBehaviour
         {
             GameOver();
         }
+
+        if (GameStats.health > 1f) 
+        { 
+            GameStats.health = 1f;
+        }
             
     }
     
     void GameOver()
     {
         SceneManager.LoadScene(15);
-        GameStats.health = 1f;
+        GameStats.health = 0.7f;
         GameStats.budget = 100;
     }
 }
