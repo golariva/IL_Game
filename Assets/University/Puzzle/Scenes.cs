@@ -15,7 +15,7 @@ public class Scenes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && PiecesScript.countPieces == 36)
+        if (Input.GetButton("Fire1") && PiecesScript.countPieces == 36)
         {
             GameStats.rating -= 18;
             if (GameStats.rating < 1)

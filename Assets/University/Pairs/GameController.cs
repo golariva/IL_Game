@@ -43,7 +43,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && countCorrectGuesses == gameGuesses)
+        if (Input.GetButton("Fire1") && countCorrectGuesses == gameGuesses)
         {
             GameStats.rating -= 18;
             if (GameStats.rating <= 1)

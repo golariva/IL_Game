@@ -13,7 +13,7 @@ public class IsSolution : MonoBehaviour
 
     void Update()
     {
-        if (isEnd && Input.GetKeyDown(KeyCode.F))
+        if (isEnd && Input.GetKeyDown("Fire1"))
         {
             EndGame();
         }
