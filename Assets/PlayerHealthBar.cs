@@ -28,6 +28,7 @@ public class PlayerHealthBar : MonoBehaviour
     {
         SceneManager.LoadScene(15);
         GameStats.health = 0.7f;
+        GameStats.rating = 50;
         GameStats.budget = 100;
     }
 }

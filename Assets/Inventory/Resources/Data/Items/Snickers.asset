@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Snickers
   Icon: {fileID: 21300000, guid: b03637f897ad78942963302d0c641643, type: 3}
   price: 40
-  healthReplenishment: 0.05
+  healthReplenishment: -0.25

@@ -7,14 +7,20 @@ using UnityEngine.UI;
 public static class Inventory
 {
     public static Dictionary<Item, int> items = new Dictionary<Item, int>();
+    private static int count = 0;
+
     public static void AddItem(string itemName)
     {
-        Item item = Item.Load(itemName);
+        if (count > 16)
+            return;
 
+        Item item = Item.Load(itemName);
         if (!items.ContainsKey(item))
             items.Add(Item.Load(itemName), 1);
-        else if (items[item] < 16)
+        else
             items[item]++;
+
+        count++;
     }
 
     public static void RemoveItem(string itemName)
@@ -26,5 +32,6 @@ public static class Inventory
             items[item]--;
         else
             items.Remove(item);
+        count--;
     }
 }
