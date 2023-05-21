@@ -37,6 +37,10 @@ public class TalkToCharacter : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Нажал");
+        }
         Text choices = window.transform.GetChild(1).GetComponent<Text>();
         if (Input.GetKeyDown(KeyCode.F) && highlight.activeSelf && way == "")
         {

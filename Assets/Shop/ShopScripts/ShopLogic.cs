@@ -41,6 +41,8 @@ public class ShopLogic : MonoBehaviour
                     {
                         currentObject.GetComponent<ShopProduct>().price = otherObject.GetComponent<ShopProduct>().price;
                         currentObject.GetComponent<ShopProduct>().description = otherObject.GetComponent<ShopProduct>().description;
+                        currentObject.GetComponent<ShopProduct>().title = otherObject.GetComponent<ShopProduct>().title;
+                        otherObject.GetComponent<ShopProduct>().title = "";
                         otherObject.GetComponent<ShopProduct>().price = 0;
                         otherObject.GetComponent<ShopProduct>().description = "";
                         currentImg.sprite = otherImg.sprite;
@@ -98,6 +100,7 @@ public class ShopLogic : MonoBehaviour
         {
             resultImg.sprite = sourceImg.sprite;  // Если картинки нет, то также берем объект и добавляем ему цену и описание в параметры.
             GameObject result = GameObject.Find(playerCells[i - 1]);
+            result.GetComponent<ShopProduct>().title = source.GetComponent<ShopProduct>().title;
             result.GetComponent<ShopProduct>().price = source.GetComponent<ShopProduct>().price;
             result.GetComponent<ShopProduct>().description = source.GetComponent<ShopProduct>().description;
         }
@@ -107,6 +110,7 @@ public class ShopLogic : MonoBehaviour
     {
         Image resultImg = selfObject.GetComponent<Image>();
         resultImg.sprite = null;
+        selfObject.GetComponent<ShopProduct>().title = "";
         selfObject.GetComponent<ShopProduct>().price = 0;
         selfObject.GetComponent<ShopProduct>().description = "";
         Text description = GameObject.Find("Description").GetComponent<Text>();
@@ -124,6 +128,10 @@ public class ShopLogic : MonoBehaviour
             for (int i = 0; i < inventory.transform.childCount; i++)
             {
                 Transform child = inventory.transform.GetChild(i);
+                if (child.gameObject.GetComponent<ShopProduct>().title != "")
+                {
+                    Inventory.AddItem(child.gameObject.GetComponent<ShopProduct>().title);
+                }
                 child.GetComponent<Image>().sprite = null;
                 child.GetComponent<ShopProduct>().price = 0;
                 child.GetComponent<ShopProduct>().description = "";
