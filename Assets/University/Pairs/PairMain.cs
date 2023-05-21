@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameController : MonoBehaviour
+public class PairMain : MonoBehaviour
 {
     [SerializeField]
     private Sprite bgImage;
@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
     private string firstGuessPuzzle, secondGuessPuzzle;
 
     public int location;
+    public static bool isPlayed = false;
 
     void Awake()
     {
@@ -45,6 +46,7 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetButton("Fire1") && countCorrectGuesses == gameGuesses)
         {
+            isPlayed = true;
             GameStats.rating -= 18;
             if (GameStats.rating <= 1)
                 GameStats.rating = 1;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WordTimer : MonoBehaviour
 {
-    public WordManager wordManager;
+    public WorkbookMain wordManager;
 
     public float wordDelay = 1.5f;
     private float nextWordTime = 0f;

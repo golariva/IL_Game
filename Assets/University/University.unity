@@ -1370,6 +1370,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420034}
   - component: {fileID: 519420035}
+  - component: {fileID: 519420036}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1471,6 +1472,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultResolution: {x: 1920, y: 1080}
   WidthOrHeight: 0
+--- !u!114 &519420036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dbf1d093ea0c34986a158b0e1ec167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzle: {fileID: 1379100466}
+  pairs: {fileID: 630691638}
+  workbook: {fileID: 179876912}
 --- !u!1 &594685384 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1031251323039060269, guid: a2253f13e3942aa4199b8bc1eb5fa2b8, type: 3}
@@ -1662,6 +1678,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!1 &630691638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1239746593508401078, guid: a5714391b93c4304ba20d140a945d5e3, type: 3}
+  m_PrefabInstance: {fileID: 729157508}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &652726558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1134323233776724488, guid: e529b0b83e4d2c14481128288d6fe032, type: 3}

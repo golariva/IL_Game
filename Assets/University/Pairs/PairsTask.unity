@@ -557,7 +557,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775288601}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1825258558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d1e0ad922555c240861c9a91e512e53, type: 3}
+  m_Script: {fileID: 11500000, guid: a8fdb51273e3af54d9359b232fd5b63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bgImage: {fileID: -1902624016, guid: d1cf7d2b8189ad54ba920068071c35cc, type: 3}
@@ -705,10 +705,10 @@ MonoBehaviour:
   - {fileID: -456706645, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 2112968867, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -1515414900, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -748826550, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 1678798822, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 169806430, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 742396426, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
+  - {fileID: -748826550, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
+  - {fileID: 1678798822, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -216748016, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -507526172, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 1155997667, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
@@ -717,18 +717,18 @@ MonoBehaviour:
   - {fileID: 376019266, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 411272157, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -2107987116, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -402269395, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -12796060, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -420031482, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -629743221, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -763557320, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -1568918236, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -172533031, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 415877497, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
+  - {fileID: -763557320, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 956477698, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 747929550, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
+  - {fileID: -172533031, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
+  - {fileID: 415877497, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -1177475471, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -1717925313, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
+  - {fileID: -402269395, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
+  - {fileID: -12796060, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   gamePuzzles: []
   btns: []
   location: 4
