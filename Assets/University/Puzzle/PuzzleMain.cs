@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 
-public class IsSolution : MonoBehaviour
+public class PuzzleMain : MonoBehaviour
 {
     public static int countTables = 0;
     public static bool isEnd = false;
     public int location;
+    public static bool isPlayed = false;
 
     void Update()
     {
@@ -34,6 +35,7 @@ public class IsSolution : MonoBehaviour
 
     private void EndGame()
     {
+        isPlayed = true;
         ResetData();
         SceneManager.LoadScene(location);
     }

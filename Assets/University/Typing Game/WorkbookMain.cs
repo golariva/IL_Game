@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 
-public class WordManager : MonoBehaviour
+public class WorkbookMain : MonoBehaviour
 {
     public List<Word> words;
 
@@ -18,6 +18,7 @@ public class WordManager : MonoBehaviour
 
     private bool hasActiveWord;
     private Word activeWord;
+    public static bool isPlayed = false;
 
     private void Start()
     {
@@ -78,6 +79,7 @@ public class WordManager : MonoBehaviour
             failedGame.Setup(countWords);
             if (Input.GetButton("Fire1"))
             {
+                isPlayed = true;
                 GameStats.rating += 13;
                 if (GameStats.rating >= 50)
                     GameStats.rating = 50;
@@ -94,6 +96,7 @@ public class WordManager : MonoBehaviour
             winGame.Setup(countWords);
             if (Input.GetButton("Fire1"))
             {
+                isPlayed = true;
                 GameStats.rating -= 13;
                 if (GameStats.rating <= 1)
                     GameStats.rating = 1;

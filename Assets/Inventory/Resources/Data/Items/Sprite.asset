@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Sprite
   Icon: {fileID: 21300000, guid: c8dc7597a69b7ba44a12b378616ca722, type: 3}
   price: 50
-  healthReplenishment: -0.22
+  healthReplenishment: -0.25

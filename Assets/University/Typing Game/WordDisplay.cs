@@ -28,7 +28,7 @@ public class WordDisplay : MonoBehaviour
     {
         transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
 
-        if (WordCollider.isFailed || WordManager.countWords == 15)
+        if (WordCollider.isFailed || WorkbookMain.countWords == 15)
             text.gameObject.SetActive(false);
     }
 }

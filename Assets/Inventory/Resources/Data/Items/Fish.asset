@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Fish
   Icon: {fileID: 21300000, guid: 5a0b3baad036a9e4ba8ccd403ef24474, type: 3}
   price: 40
-  healthReplenishment: 0.3
+  healthReplenishment: 0.47

@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Chips
   Icon: {fileID: 21300000, guid: d0d37e7ef3d15184cb2a23d381ddc1d3, type: 3}
   price: 100
-  healthReplenishment: -0.1
+  healthReplenishment: -0.25
