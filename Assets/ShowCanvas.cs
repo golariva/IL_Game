@@ -8,13 +8,14 @@ public class ShowCanvas : MonoBehaviour
 
     public void ChangeCondition()
     {
-        if (canvas.enabled)
+        canvas.enabled = !canvas.enabled;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && canvas.enabled)
         {
-            canvas.enabled = false;
-        }
-        else
-        {
-            canvas.enabled = true;
+            ChangeCondition();
         }
     }
 }
