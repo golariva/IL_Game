@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class InventoryWindow : MonoBehaviour
     GraphicRaycaster m_Raycaster;
     EventSystem m_EventSystem;
     PointerEventData m_PointerEventData;
+    //[SerializeField] File file;
 
     readonly List<GameObject> drawnIcons = new List<GameObject> ();
     void Start()
@@ -30,7 +32,7 @@ public class InventoryWindow : MonoBehaviour
             {
                 Redraw();
             }
-        }
+        }     
 
         if (Input.GetMouseButtonDown(0))
         {
