@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class CallHelp : MonoBehaviour
 {
-    string commandText = @"D:\Этот файл нужно просто открыть.chm";
+    string commandText = Directory.GetCurrentDirectory() + @"\Assets\Scripts\Этот файл нужно просто открыть.chm";
 
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F1))
