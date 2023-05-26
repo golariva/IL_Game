@@ -18,7 +18,8 @@ public class CookingTaskMain : MonoBehaviour
     [SerializeField] Canvas winningMessage;
     [SerializeField] Canvas lossMessage;
     [SerializeField] Text scoreMessage;
-    
+    public static bool isPlayed = false;
+
 
     void Start()
     {
@@ -48,6 +49,7 @@ public class CookingTaskMain : MonoBehaviour
     {
 
         Time.timeScale = 0;
+        isPlayed = true;
 
         if (isWin)
             winningMessage.gameObject.SetActive(true);

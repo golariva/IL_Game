@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 286931958}
   - component: {fileID: 286931957}
   - component: {fileID: 286931956}
+  - component: {fileID: 286931962}
   m_Layer: 5
   m_Name: WinningMessage
   m_TagString: Untagged
@@ -374,6 +375,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0.14, y: -0.15}
   m_SizeDelta: {x: 15.977, y: 5.7059}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &286931962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286931955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9254902, g: 0.43137255, b: 0.44705883, a: 0.5}
+  m_EffectDistance: {x: 0.1, y: -0.1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &302720281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,6 +1107,7 @@ GameObject:
   - component: {fileID: 1458541495}
   - component: {fileID: 1458541494}
   - component: {fileID: 1458541493}
+  - component: {fileID: 1458541499}
   m_Layer: 5
   m_Name: LossMessage
   m_TagString: Untagged
@@ -1217,6 +1234,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0.15, y: -0.12}
   m_SizeDelta: {x: 15.977, y: 5.7059}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1458541499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458541492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9254902, g: 0.43137255, b: 0.44705883, a: 0.5}
+  m_EffectDistance: {x: 0.1, y: -0.1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1559411676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1667,7 @@ GameObject:
   - component: {fileID: 2017282496}
   - component: {fileID: 2017282495}
   - component: {fileID: 2017282494}
+  - component: {fileID: 2017282500}
   m_Layer: 5
   m_Name: StartMessage
   m_TagString: Untagged
@@ -1761,6 +1794,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0.14, y: -0.18}
   m_SizeDelta: {x: 15.977, y: 5.7059}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2017282500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017282493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9254902, g: 0.43137255, b: 0.44705883, a: 0.5}
+  m_EffectDistance: {x: 0.1, y: -0.1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2142730136
 GameObject:
   m_ObjectHideFlags: 0
