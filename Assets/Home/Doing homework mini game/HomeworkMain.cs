@@ -53,6 +53,7 @@ public class HomeworkMain : MonoBehaviour
         {
             Time.timeScale = 1;
             ResetData();
+            GameStats.rating -= 2;
             Inventory.AddItem("Notebook");
             SceneManager.LoadScene("Home");
         }
