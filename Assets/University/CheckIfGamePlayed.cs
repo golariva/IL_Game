@@ -13,7 +13,7 @@ public class CheckIfGamePlayed : MonoBehaviour
 
     void Update()
     {
-        if (PuzzleMain.isPlayed && !isObjRemovedFromPuzzle)
+        if (Scenes.isPlayed && !isObjRemovedFromPuzzle)
         {
             Destroy(puzzle.GetComponent<Obj>());
             isObjRemovedFromPuzzle = true;

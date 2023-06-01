@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Scenes : MonoBehaviour
 {
     public int location;
+    public static bool isPlayed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class Scenes : MonoBehaviour
     {
         if (Input.GetButton("Fire1") && PiecesScript.countPieces == 36)
         {
+            isPlayed = true;
             GameStats.rating -= 18;
             if (GameStats.rating < 1)
                 GameStats.rating = 1;

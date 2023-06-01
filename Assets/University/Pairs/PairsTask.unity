@@ -559,7 +559,7 @@ RectTransform:
   m_GameObject: {fileID: 1775288601}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 635158179}
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_CellSize: {x: 60, y: 60}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
-  m_ConstraintCount: 6
+  m_ConstraintCount: 4
 --- !u!114 &1775288604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -699,36 +699,16 @@ MonoBehaviour:
   - {fileID: 1163836404, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -688221943, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 1665272113, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 2002756348, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -1244619908, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 797598412, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -456706645, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 2112968867, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -1515414900, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 169806430, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 742396426, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -748826550, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 1678798822, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -216748016, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -507526172, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 1155997667, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -59232365, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -650074102, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: 376019266, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 411272157, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -2107987116, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -420031482, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -629743221, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -1568918236, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   - {fileID: -763557320, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 956477698, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 747929550, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -172533031, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: 415877497, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -1177475471, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -1717925313, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -402269395, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
-  - {fileID: -12796060, guid: 0a0ca5df1428f3f4baee1a31af1cf894, type: 3}
   gamePuzzles: []
   btns: []
   location: 4
