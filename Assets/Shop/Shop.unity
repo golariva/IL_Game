@@ -556,6 +556,7 @@ GameObject:
   - component: {fileID: 154081505}
   - component: {fileID: 154081504}
   - component: {fileID: 154081503}
+  - component: {fileID: 154081506}
   m_Layer: 0
   m_Name: Seller
   m_TagString: Untagged
@@ -712,6 +713,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0093975, y: 2.2336948, z: 0.2}
   m_Center: {x: 0.15469885, y: 0.3781525, z: 0}
+--- !u!114 &154081506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154081497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c9b36d3c61b8a4eae470eea71d429a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 1265687628}
+  helper: {fileID: 1322766881}
 --- !u!1 &158240715
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1235,7 @@ GameObject:
   - component: {fileID: 343418714}
   - component: {fileID: 343418713}
   - component: {fileID: 343418718}
+  - component: {fileID: 343418719}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Interactable
@@ -1362,6 +1378,20 @@ CapsuleCollider:
   m_Height: 1.7668631
   m_Direction: 1
   m_Center: {x: -0.026484467, y: 0.41564488, z: 0}
+--- !u!114 &343418719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343418712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c9b36d3c61b8a4eae470eea71d429a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 1265687628}
+  helper: {fileID: 1322766881}
 --- !u!1 &409498539
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,18 +2126,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &594685395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594685384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa4279d6d942a224b8b7b7b2f2e202c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &644034914
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,6 +3394,7 @@ GameObject:
   - component: {fileID: 936929632}
   - component: {fileID: 936929636}
   - component: {fileID: 936929637}
+  - component: {fileID: 936929638}
   m_Layer: 0
   m_Name: VendingMachine
   m_TagString: Untagged
@@ -3506,6 +3525,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1029438, y: 0.53894824, z: 0.2}
   m_Center: {x: 0.035500932, y: 0.016881455, z: 0}
+--- !u!114 &936929638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936929631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c9b36d3c61b8a4eae470eea71d429a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 1265687628}
+  helper: {fileID: 1322766881}
 --- !u!1 &942310173
 GameObject:
   m_ObjectHideFlags: 0
@@ -4817,6 +4850,7 @@ GameObject:
   - component: {fileID: 1349950165}
   - component: {fileID: 1349950166}
   - component: {fileID: 1349950167}
+  - component: {fileID: 1349950168}
   m_Layer: 0
   m_Name: SlidingDoors
   m_TagString: Untagged
@@ -4934,6 +4968,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   location: 18
+--- !u!114 &1349950168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349950162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c9b36d3c61b8a4eae470eea71d429a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 1265687628}
+  helper: {fileID: 1322766881}
 --- !u!1 &1456409277
 GameObject:
   m_ObjectHideFlags: 0
