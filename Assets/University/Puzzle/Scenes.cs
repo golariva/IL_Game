@@ -7,13 +7,7 @@ public class Scenes : MonoBehaviour
 {
     public int location;
     public static bool isPlayed = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetButton("Fire1") && PiecesScript.countPieces == 36)

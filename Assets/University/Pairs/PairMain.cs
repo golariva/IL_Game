@@ -30,7 +30,7 @@ public class PairMain : MonoBehaviour
 
     void Awake()
     {
-        
+
     }
 
     void Start()
@@ -162,6 +162,4 @@ public class PairMain : MonoBehaviour
             int randomIndex = Random.Range(i, list.Count);
             list[i] = list[randomIndex];
             list[randomIndex] = temp;
-        }
-    }
-}
+        } } }

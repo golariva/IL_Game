@@ -6,7 +6,6 @@ public class WordInput : MonoBehaviour
 {
     public WorkbookMain wordManager;
 
-    // Update is called once per frame
     void Update()
     {
         foreach (char letter in Input.inputString)
