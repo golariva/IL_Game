@@ -33,8 +33,6 @@ public class HomeworkMain : MonoBehaviour
     void Update()
     {
         progressText.text = $"Домашняя работа готова на {progress}%";
-
-
         if (isCompleted)
         {
             EndTask();

@@ -13,7 +13,6 @@ public class InventoryWindow : MonoBehaviour
     GraphicRaycaster m_Raycaster;
     EventSystem m_EventSystem;
     PointerEventData m_PointerEventData;
-    //[SerializeField] File file;
 
     readonly List<GameObject> drawnIcons = new List<GameObject> ();
     void Start()
@@ -56,8 +55,6 @@ public class InventoryWindow : MonoBehaviour
         }
 
     }
-
-    void OnItemAdded(Item obj) => Redraw();
 
     void Redraw()
     {

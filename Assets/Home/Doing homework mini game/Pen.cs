@@ -8,17 +8,11 @@ public class Pen : MonoBehaviour
     [SerializeField] GameObject obj;
     private Animator anim;
     private AudioSource myAudio;
-    private static bool isSoundPlaying;
 
     void Start()
     {
         anim = obj.GetComponent<Animator>();
         myAudio = obj.GetComponent<AudioSource>();
-    }
-
-    void Update()
-    {
-
     }
 
     public void PlayAnim()
@@ -33,5 +27,4 @@ public class Pen : MonoBehaviour
             myAudio.Play();
         }
     }
-
 }

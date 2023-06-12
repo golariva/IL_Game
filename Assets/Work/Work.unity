@@ -1867,6 +1867,108 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &594685391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594685384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd482fa1367aa34684222d48cc27e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveButtons:
+    m_Name: Move Buttons
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3ef190df-2fd1-4674-8e0b-370e657b3a24
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: WASD
+      m_Id: 87ab5e69-2b99-452b-9eb3-8525bbd63611
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 1dbed930-3277-4c07-83fc-108b162d1343
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 5e241181-fd60-4a44-9ec0-d5b8bc58e524
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: left
+      m_Id: f026557d-a64b-490b-a4d6-0e4258894f81
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 021c43cb-7a44-4197-85bd-d654a3f6ff45
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: Arrows
+      m_Id: 6d55458b-67f1-4b1c-b174-a2246fc957dd
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 3f907694-8ecc-4b65-8661-a0a35fe9f7e6
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: down
+      m_Id: dd17d129-6d6c-49fb-97c2-e757792f288e
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: left
+      m_Id: d331ff43-4b53-4e8e-94ae-e7850df905e0
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: right
+      m_Id: b1ae66b7-380a-4285-a1ab-1fb00dd6ad1b
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    m_Flags: 0
+  movementSpeed: 5
 --- !u!1 &668290893
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,7 +5360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 755.5, y: -1642.0469}
+  m_AnchoredPosition: {x: 755.5, y: -1736.4904}
   m_SizeDelta: {x: 1511, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2027064011
@@ -6290,6 +6392,14 @@ PrefabInstance:
       propertyPath: hasControl
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7117641826527000688, guid: a2253f13e3942aa4199b8bc1eb5fa2b8, type: 3}
+      propertyPath: moveButtons.m_Id
+      value: 5a61561c-2042-4b23-ab1d-c088cdb995fc
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117641826527000688, guid: a2253f13e3942aa4199b8bc1eb5fa2b8, type: 3}
+      propertyPath: moveButtons.m_Name
+      value: Move Buttons
+      objectReference: {fileID: 0}
     - target: {fileID: 7963807150648112828, guid: a2253f13e3942aa4199b8bc1eb5fa2b8, type: 3}
       propertyPath: m_Name
       value: Player
@@ -6310,7 +6420,8 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7117641826527000688, guid: a2253f13e3942aa4199b8bc1eb5fa2b8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a2253f13e3942aa4199b8bc1eb5fa2b8, type: 3}
 --- !u!1 &8189197529340723509 stripped
 GameObject:
