@@ -14,11 +14,6 @@ public class Note : MonoBehaviour
     private Animator anim;
     public static bool isTouched = false;
 
-    void Start()
-    {
-        
-    }
-
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -49,6 +44,5 @@ public class Note : MonoBehaviour
         speed = 0;
         Destroy(gameObject, 0.3f);
         anim.SetTrigger("Play");
-        
     }
 }

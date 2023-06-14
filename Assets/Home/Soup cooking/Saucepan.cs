@@ -23,7 +23,6 @@ public class Saucepan : MonoBehaviour
 
     void Update()
     {
-
         if (Input.GetButton("Horizontal"))
             RunRL();   
     }
@@ -32,7 +31,6 @@ public class Saucepan : MonoBehaviour
     {
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
         transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
