@@ -35,7 +35,7 @@ public class TalkToCharacter : MonoBehaviour
         return isTarget;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         Text choices = window.transform.GetChild(1).GetComponent<Text>();
         if (Input.GetKeyDown(KeyCode.F) && highlight.activeSelf && way == "")
