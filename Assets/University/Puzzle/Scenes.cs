@@ -6,17 +6,13 @@ using UnityEngine.SceneManagement;
 public class Scenes : MonoBehaviour
 {
     public int location;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static bool isPlayed = false;
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetButton("Fire1") && PiecesScript.countPieces == 36)
         {
+            isPlayed = true;
             GameStats.rating -= 18;
             if (GameStats.rating < 1)
                 GameStats.rating = 1;
@@ -24,3 +20,4 @@ public class Scenes : MonoBehaviour
         }
     }
 }
+

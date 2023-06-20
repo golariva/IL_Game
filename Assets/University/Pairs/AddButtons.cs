@@ -10,10 +10,9 @@ public class AddButtons : MonoBehaviour
     [SerializeField]
     private GameObject btn;
 
-    //первая функция, которая заработает при запуске скрипта
     void Awake()
     {
-        for (int i = 0; i < 36; i++)
+        for (int i = 0; i < 16; i++)
         {
             GameObject button = Instantiate(btn);
             button.name = "" + i;

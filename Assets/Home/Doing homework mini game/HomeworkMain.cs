@@ -33,8 +33,6 @@ public class HomeworkMain : MonoBehaviour
     void Update()
     {
         progressText.text = $"Домашняя работа готова на {progress}%";
-
-
         if (isCompleted)
         {
             EndTask();
@@ -53,6 +51,7 @@ public class HomeworkMain : MonoBehaviour
         {
             Time.timeScale = 1;
             ResetData();
+            GameStats.rating -= 2;
             Inventory.AddItem("Notebook");
             SceneManager.LoadScene("Home");
         }

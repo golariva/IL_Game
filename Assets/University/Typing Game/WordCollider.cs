@@ -8,7 +8,6 @@ public class WordCollider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (WorkbookMain.countWords < 15)
-            isFailed = true;
+        isFailed = true;
     }
 }

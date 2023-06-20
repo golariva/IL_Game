@@ -19,5 +19,4 @@ public class HideHearts : MonoBehaviour
         if (Saucepan.lives == 0)
             heart1.SetActive(false);
     }
-
 }

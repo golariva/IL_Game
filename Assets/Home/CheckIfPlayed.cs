@@ -6,8 +6,10 @@ public class CheckIfPlayed : MonoBehaviour
 {
     [SerializeField] GameObject bed;
     [SerializeField] GameObject desk;
+    [SerializeField] GameObject stove;
     bool isObjRemovedFromBed = false;
     bool isObjRemovedFromDesk = false;
+    bool isObjRemovedFromStove = false;
 
     void Update()
     {
@@ -21,6 +23,12 @@ public class CheckIfPlayed : MonoBehaviour
         {
             Destroy(desk.GetComponent<Obj>());
             isObjRemovedFromDesk=true;
+        }
+
+        if (CookingTaskMain.isPlayed && !isObjRemovedFromStove)
+        {
+            Destroy(stove.GetComponent<Obj>());
+            isObjRemovedFromStove = true;
         }
     }
 }
