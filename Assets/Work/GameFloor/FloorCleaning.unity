@@ -7601,96 +7601,96 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cd482fa1367aa34684222d48cc27e5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasControl: 1
-  WASD:
-    m_Name: WASD
+  moveButtons:
+    m_Name: Move Buttons
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 70b2e313-7ca7-4f2c-beb3-cc9a9ff4cf65
+    m_Id: 9b965138-fba2-43dd-8583-4fb4883bcd1a
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
-    - m_Name: Movement
-      m_Id: 888cee4d-fc07-4df7-8a01-5c28e86bd529
+    - m_Name: WASD
+      m_Id: be7a90f7-bbe2-463f-9743-6f3f4669d0d6
       m_Path: 2DVector
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: WASD
+      m_Action: Move Buttons
       m_Flags: 4
     - m_Name: up
-      m_Id: 30a09311-3606-4f59-9b93-186121a0cd90
+      m_Id: 4fa1915d-e399-4694-8c43-47d26b5f6482
       m_Path: <Keyboard>/w
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: WASD
+      m_Action: Move Buttons
       m_Flags: 8
     - m_Name: down
-      m_Id: b084d47e-b32e-4cf7-bf6c-fbec4b8ead3c
+      m_Id: 9ce4a4bc-b2c9-4005-aaea-8522dae9de6e
       m_Path: <Keyboard>/s
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: WASD
+      m_Action: Move Buttons
       m_Flags: 8
     - m_Name: left
-      m_Id: a47951f2-3534-469d-a7a2-9b5053739dd6
+      m_Id: 290850f0-6580-46f3-aced-a3f6e6b6040d
       m_Path: <Keyboard>/a
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: WASD
+      m_Action: Move Buttons
       m_Flags: 8
     - m_Name: right
-      m_Id: b3e2801c-fdaa-4bb1-ba70-8c9e544bca88
+      m_Id: c95f7ddb-5a4c-491e-bb1e-8d5ef7596731
       m_Path: <Keyboard>/d
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: WASD
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: Arrows
+      m_Id: c69dd749-0243-4795-a4a7-a86b9a8b0bff
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 4
+    - m_Name: up
+      m_Id: afc5d680-9bc8-4612-a113-296707872eb8
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 901eff65-b108-4a89-9f68-1c27002a9fde
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 38f0ced7-a7ad-4e5b-bca4-861891bf7e21
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
+      m_Flags: 8
+    - m_Name: right
+      m_Id: ef0561ac-6973-4748-b7a1-5c0b7a89931b
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Buttons
       m_Flags: 8
     m_Flags: 0
   movementSpeed: 5
-  myColor: {r: 0, g: 0, b: 0, a: 0}
-  bodyPrefab: {fileID: 0}
-  MOUSE:
-    m_Name: MOUSE
-    m_Type: 0
-    m_ExpectedControlType: Vector2
-    m_Id: 7d7e1050-d6a0-429c-a99b-42e5d73f0c5f
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 2c955278-3546-4892-ad51-6d8e60302bac
-      m_Path: <Mouse>/position
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: MOUSE
-      m_Flags: 0
-    m_Flags: 0
-  INTERACTION:
-    m_Name: INTERACTION
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: c3287449-86f7-4994-9353-c0ca9475fdf4
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: ef434abf-d4f8-4618-8d39-d9448e90c8a6
-      m_Path: <Mouse>/leftButton
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: INTERACTION
-      m_Flags: 0
-    m_Flags: 0
-  interactLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!1 &7963807149348687811
 GameObject:
   m_ObjectHideFlags: 0
