@@ -501,7 +501,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50545192}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1258,14 +1258,17 @@ MonoBehaviour:
   line: {fileID: 1707424864}
   bar: {fileID: 224189960}
   window: {fileID: 539844076}
-  firstMessage: "\u0425\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430"
-  firstAnswer: "\u041F\u0440\u0438\u0432\u0435\u0442!"
+  firstMessage: "\"\u0425\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\""
+  firstAnswer: "\"\u041F\u0440\u0438\u0432\u0435\u0442!\" \u0412\u044B \u0432\u0438\u0434\u0438\u0442\u0435
+    \u0443 \u043D\u0435\u0433\u043E \u0432 \u0440\u0443\u043A\u0435 \u0432\u043A\u0443\u0441\u043D\u0443\u044E,
+    \u0435\u0449\u0435 \u043D\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u0443\u044E
+    \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043A\u0443."
   secondAnswer: "\u041E\u043D \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u043B
     \u0432\u0430\u043C \u0441\u043C\u0435\u0448\u043D\u0443\u044E \u0448\u0443\u0442\u043A\u0443.
     \u0422\u0435\u043F\u0435\u0440\u044C \u0432\u044B \u0442\u043E\u0436\u0435 \u0441\u043C\u0435\u0435\u0442\u0435\u0441\u044C."
   secondDegreeAnswer: "*\u0412\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0438
     \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043A\u0443!*"
-  secondDegreeAnswer2: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0434\u0430\u043C."
+  secondDegreeAnswer2: "\"\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0434\u0430\u043C.\""
 --- !u!54 &343418714
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3860,8 +3863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 705.4, y: -0.000089645}
-  m_SizeDelta: {x: 0.4, y: 1.1333}
+  m_AnchoredPosition: {x: 698.12, y: -0.000055313}
+  m_SizeDelta: {x: 0.42, y: 1.1333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &1106186184
 Rigidbody2D:
@@ -3871,14 +3874,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106186182}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3897,7 +3900,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014769137, y: -0.0022883415}
+  m_Offset: {x: 0.0030100122, y: -0.0022883415}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3908,7 +3911,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45469028, y: 1.1388385}
+  m_Size: {x: 0.419132, y: 1.1388385}
   m_EdgeRadius: 0
 --- !u!1001 &1126643357
 PrefabInstance:
@@ -4582,7 +4585,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233894809}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -5069,7 +5072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.3, y: -0.00065486}
+  m_AnchoredPosition: {x: 176.6, y: -0.00024287}
   m_SizeDelta: {x: 2.1, y: 1.1333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1285004296
@@ -5085,7 +5088,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0039025545, y: 0.0056322813}
+  m_Offset: {x: 0.0039026141, y: 0.0056322813}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5096,7 +5099,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.1276948, y: 1.1266785}
+  m_Size: {x: 2.127695, y: 1.1266785}
   m_EdgeRadius: 0
 --- !u!50 &1285004297
 Rigidbody2D:
@@ -5106,7 +5109,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285004294}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -6283,7 +6286,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889737297}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

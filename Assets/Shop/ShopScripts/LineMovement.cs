@@ -32,12 +32,12 @@ public class LineMovement : MonoBehaviour
     
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (Input.GetKeyDown(KeyCode.Space) && other.gameObject.transform.name.Contains("Target"))
+        if (Input.GetKeyDown(KeyCode.Space) && other.gameObject.name.Contains("Target"))
         {
             other.gameObject.GetComponent<Image>().enabled = false;
             other.gameObject.transform.name = "Miss";
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && other.gameObject.transform.name.Contains("Miss"))
+        else if (Input.GetKeyDown(KeyCode.Space) && other.gameObject.name.Contains("Miss"))
         {
             other.gameObject.transform.parent.gameObject.SetActive(false);
             transform.gameObject.SetActive(false);

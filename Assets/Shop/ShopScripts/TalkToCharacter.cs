@@ -18,7 +18,7 @@ public class TalkToCharacter : MonoBehaviour
     public string secondAnswer;
     public string secondDegreeAnswer;
     public string secondDegreeAnswer2;
-    int isCompleted = 2;
+    [SerializeField] static int isCompleted = 2;
     Coroutine lastCoroutine = null;
     
     bool UncatchedTargets(GameObject bar)
@@ -37,10 +37,6 @@ public class TalkToCharacter : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Нажал");
-        }
         Text choices = window.transform.GetChild(1).GetComponent<Text>();
         if (Input.GetKeyDown(KeyCode.F) && highlight.activeSelf && way == "")
         {
@@ -71,7 +67,7 @@ public class TalkToCharacter : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1) && isWaiting && highlight.activeSelf && way == "AA")
         {
-            if (isCompleted == 1 || isCompleted == 2)
+            if (isCompleted == 2)
             {
                 line.SetActive(true);
                 bar.SetActive(true);
@@ -81,7 +77,7 @@ public class TalkToCharacter : MonoBehaviour
         }
 
         
-        if (isWaiting && highlight.activeSelf && way == "AAA" && !UncatchedTargets(bar) && bar.activeSelf)
+        if (isWaiting && highlight.activeSelf && way == "AAA" && (!UncatchedTargets(bar) && bar.activeSelf || isCompleted == 1))
         {
             way += "A";
             isWaiting = false;
